@@ -1,9 +1,8 @@
 using System;
-using UnityEngine.SocialPlatforms;
 
 namespace GooglePlayGames
 {
-	public class PlayGamesLocalUser : PlayGamesUserProfile, ILocalUser, IUserProfile
+    public class PlayGamesLocalUser : PlayGamesUserProfile, ILocalUser, IUserProfile
 	{
 		private PlayGamesPlatform mPlatform;
 
